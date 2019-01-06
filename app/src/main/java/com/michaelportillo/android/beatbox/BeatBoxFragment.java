@@ -75,6 +75,7 @@ public class BeatBoxFragment extends Fragment {
                     .inflate(inflater, R.layout.list_item_sound, parent, false);
             return new SoundHolder(binding);
         }
+        
 
         @Override
         public void onBindViewHolder(SoundHolder holder, int position) {
