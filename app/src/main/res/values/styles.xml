@@ -12,6 +12,7 @@
 
     <style name="BeatBoxButton">
         <item name="android:background">@drawable/button_beat_box</item>
+        <item name="android:stateListAnimator">@null</item>
     </style>
 
     <style name="BeatBoxButton.Strong">
